@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>***REMOVED***</groupId>
+    <groupId>com.hoffnungland</groupId>
     <artifactId>sqlGateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
@@ -17,11 +17,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>***REMOVED***</groupId>
+      <groupId>com.hoffnungland</groupId>
       <artifactId>primary-source</artifactId>
     </dependency>
     <dependency>
-      <groupId>***REMOVED***</groupId>
+      <groupId>com.hoffnungland</groupId>
       <artifactId>logging</artifactId>
     </dependency>
   </dependencies>

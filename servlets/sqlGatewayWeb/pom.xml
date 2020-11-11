@@ -6,12 +6,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>***REMOVED***</groupId>
+		<groupId>com.hoffnungland</groupId>
 		<artifactId>servlets</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<groupId>***REMOVED***</groupId>
+	<groupId>com.hoffnungland</groupId>
 	<artifactId>sqlGatewayWeb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -34,7 +34,7 @@
 						</goals>
 						<configuration>
 							<genWsdl>true</genWsdl>
-							<sei>***REMOVED***.impl.SQLGatewayImpl</sei>
+							<sei>com.hoffnungland.impl.SQLGatewayImpl</sei>
 						</configuration>
 					</execution>
 				</executions>
