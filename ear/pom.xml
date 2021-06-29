@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.hoffnungland</groupId>
-    <artifactId>sqlGateway</artifactId>
+    <groupId>com.hoffnungland.sqlGateway</groupId>
+    <artifactId>sqlgateway</artifactId>
     <version>0.0.2-SNAPSHOT</version>
   </parent>
 
@@ -16,28 +16,28 @@
 
   <dependencies>
     <!--dependency>
-      <groupId>com.hoffnungland</groupId>
+      <groupId>com.hoffnungland.sqlGateway</groupId>
       <artifactId>ejbs</artifactId>
       <type>ejb</type>
     </dependency-->
     <!--dependency>
-      <groupId>com.hoffnungland</groupId>
+      <groupId>com.hoffnungland.sqlGateway</groupId>
       <artifactId>servlet</artifactId>
       <type>war</type>
       <version>0.0.1-SNAPSHOT</version>
     </dependency-->
     <dependency>
-      <groupId>com.hoffnungland</groupId>
+      <groupId>com.hoffnungland.sqlGateway</groupId>
       <artifactId>sqlgatewayweb</artifactId>
       <type>war</type>
       <version>0.0.2-SNAPSHOT</version>
     </dependency>
     <!-- dependency>
-      <groupId>com.hoffnungland</groupId>
+      <groupId>com.hoffnungland.sqlGateway</groupId>
       <artifactId>primary-source</artifactId>
     </dependency-->
     <!-- dependency>
-      <groupId>com.hoffnungland</groupId>
+      <groupId>com.hoffnungland.sqlGateway</groupId>
       <artifactId>logging</artifactId>
     </dependency-->
   </dependencies>

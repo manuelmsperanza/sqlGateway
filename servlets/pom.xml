@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.hoffnungland</groupId>
-		<artifactId>sqlGateway</artifactId>
+		<groupId>com.hoffnungland.sqlGateway</groupId>
+		<artifactId>sqlgateway</artifactId>
 		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 

@@ -1,5 +1,5 @@
 #Generate
-	mvn archetype:generate -Dfilter="org.apache.maven.archetypes:maven-archetype-j2ee-simple" -Dgroupid="com.hoffnungland" -DartifactId=sqlGateway -Dpackage="com.hoffnungland.sqlGateway" -Dversion="0.0.1-SNAPSHOT"
+	mvn archetype:generate -Dfilter="org.apache.maven.archetypes:maven-archetype-j2ee-simple" -Dgroupid="com.hoffnungland.sqlGateway" -DartifactId=sqlGateway -Dpackage="com.hoffnungland.sqlGateway" -Dversion="0.0.1-SNAPSHOT"
 	
 #Build settings
 ##Add prerequisites
