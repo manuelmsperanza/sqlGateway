@@ -5,7 +5,7 @@
 
 	<groupId>com.hoffnungland.sqlGateway</groupId>
 	<artifactId>sqlgateway</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 	<prerequisites>
 		<maven>3.0.5</maven>
@@ -27,7 +27,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/manuelmsperanza/sqlGateway.git</connection>
 		<developerConnection>scm:git:git@github.com:manuelmsperanza/sqlGateway.git</developerConnection>     
-		<tag>HEAD</tag>
+		<tag>sqlgateway-0.0.2</tag>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
@@ -46,12 +46,12 @@
 			<dependency>
 				<groupId>com.hoffnungland.sqlGateway</groupId>
 				<artifactId>logging</artifactId>
-				<version>0.0.2-SNAPSHOT</version>
+				<version>0.0.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.hoffnungland.sqlGateway</groupId>
 				<artifactId>primary-source</artifactId>
-				<version>0.0.2-SNAPSHOT</version>
+				<version>0.0.2</version>
 			</dependency>
 			<dependency>
 				<groupId>com.hoffnungland.sqlGateway</groupId>
@@ -62,7 +62,7 @@
 			<dependency>
 				<groupId>com.hoffnungland.sqlGateway</groupId>
 				<artifactId>ejbs</artifactId>
-				<version>0.0.2-SNAPSHOT</version>
+				<version>0.0.2</version>
 				<type>ejb</type>
 			</dependency>
 		</dependencies>

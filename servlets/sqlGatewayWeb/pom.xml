@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>com.hoffnungland.sqlGateway</groupId>
 		<artifactId>servlets</artifactId>
-		<version>0.0.2-SNAPSHOT</version>
+		<version>0.0.2</version>
 	</parent>
 	
 	<groupId>com.hoffnungland.sqlGateway</groupId>
 	<artifactId>sqlgatewayweb</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>war</packaging>
 
 	<name>sqlGatewayWeb Maven Webapp</name>
