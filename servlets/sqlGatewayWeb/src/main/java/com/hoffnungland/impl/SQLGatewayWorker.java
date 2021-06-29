@@ -29,7 +29,7 @@ public class SQLGatewayWorker {
 
 		Context initContext = new InitialContext();
 		//Context envContext  = (Context) initContext.lookup("java:/comp/env");
-		javax.sql.DataSource ds = (javax.sql.DataSource) initContext.lookup("jdbc/***REMOVED***");
+		javax.sql.DataSource ds = (javax.sql.DataSource) initContext.lookup("jdbc/__defaultDataSource");
 		
 		Connection dsConnection = ds.getConnection();
 		

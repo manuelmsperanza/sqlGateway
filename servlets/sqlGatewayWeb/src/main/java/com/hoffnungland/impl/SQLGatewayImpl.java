@@ -14,7 +14,7 @@ import com.hoffnungland.SQLGateway;
 import com.hoffnungland.model.SQLGatewayRequest;
 import com.hoffnungland.model.SQLGatewayResponse;
 
-@WebService(endpointInterface = "***REMOVED***.SQLGateway")
+@WebService(endpointInterface = "com.hoffnungland.SQLGateway")
 public class SQLGatewayImpl implements SQLGateway {
 	
 	private static final Logger logger = LogManager.getLogger(SQLGateway.class);

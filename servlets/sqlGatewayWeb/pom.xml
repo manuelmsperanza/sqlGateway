@@ -12,7 +12,7 @@
 	</parent>
 	
 	<groupId>com.hoffnungland</groupId>
-	<artifactId>sqlGatewayWeb</artifactId>
+	<artifactId>sqlgatewayweb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -41,4 +41,18 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+		<dependency>
+			<groupId>javax.xml.ws</groupId>
+			<artifactId>jaxws-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>	
+		<!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jws -->
+		<dependency>
+			<groupId>org.glassfish.main.javaee-api</groupId>
+			<artifactId>javax.jws</artifactId>
+			<version>3.1.2.2</version>
+		</dependency>
+	</dependencies>
 </project>

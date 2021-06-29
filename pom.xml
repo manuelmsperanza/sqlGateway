@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hoffnungland</groupId>
-	<artifactId>sqlGateway</artifactId>
+	<artifactId>sqlgateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<prerequisites>
@@ -19,7 +19,22 @@
 		<javaee.api.version>8.0.1</javaee.api.version>
 	</properties>
 	<name>sqlGateway</name>
-
+	<distributionManagement>
+		<repository>
+			<id>manuelmsperanza.github</id>
+			<name>GitHub manuelmsperanza Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/manuelmsperanza/sqlGateway</url>
+		</repository>
+	</distributionManagement>
+	<scm>
+		<connection>scm:git:https://github.com/manuelmsperanza/sqlGateway.git</connection>
+		<developerConnection>scm:git:git@github.com:manuelmsperanza/sqlGateway.git</developerConnection>     
+		<tag>HEAD</tag>
+	</scm>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/manuelmsperanza/sqlGateway/issues</url>
+	</issueManagement>
 	<modules>
 		<module>projects</module>
 		<module>primary-source</module>
@@ -65,7 +80,7 @@
 		<dependency>
 			<groupId>com.hoffnungland</groupId>
 			<artifactId>Log4j</artifactId>
-			<version>1.0.8</version>
+			<version>1.0.9</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -122,34 +137,12 @@
 					<artifactId>maven-jarsigner-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
+				<plugin>
+			        <groupId>org.apache.maven.plugins</groupId>
+			        <artifactId>maven-release-plugin</artifactId>
+			        <version>3.0.0-M4</version>
+		        </plugin>
 			</plugins>
 		</pluginManagement>
-		<plugins>
-			<plugin>
-				<artifactId>maven-jarsigner-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>sign</id>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-						<configuration>
-							<keystore>${hoffnunglandJksPath}</keystore>
-							<alias>${hoffnunglandJksEntry}</alias>
-							<storepass>${hoffnunglandJksPasswd}</storepass>
-						</configuration>
-					</execution>
-					<execution>
-						<id>verify</id>
-						<goals>
-							<goal>verify</goal>
-						</goals>
-						<configuration>
-							<certs>true</certs>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 	</build>
 </project>
